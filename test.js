@@ -1,11 +1,11 @@
-var dl = require('./index');
+const dl = require('./index');
 
 option = {
 	onDone: (info)=>{
 		console.log('done', info);
 	},
-	onError: (err={}) => {
-		console.log('error2', err);
+	onError: (err) => {
+		console.log('error', err);
 	},
 	onProgress: (curr, total) => {
 		console.log('progress', (curr / total * 100).toFixed(2) + '%');

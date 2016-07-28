@@ -1,0 +1,51 @@
+# download file with progress bar
+
+## install
+
+```
+npm install --save download-file-with-progressbar
+```
+## usage
+
+```
+const dl = require('./index');
+
+option = {
+	filename: 'the filename to store, default = path.basename(YOUR_URL) || "unknowfilename"',
+	dir: 'the folder to store, default = os.tmpdir()',
+	onDone: (info)=>{
+		console.log('done', info);
+	},
+	onError: (err) => {
+		console.log('error', err);
+	},
+	onProgress: (curr, total) => {
+		console.log('progress', (curr / total * 100).toFixed(2) + '%');
+	},
+}
+
+dl('YOUR_URL', option);
+```
+
+## demo
+
+```
+progress 0.00%
+progress 0.69%
+progress 1.38%
+progress 2.08%
+progress 2.77%
+progress 3.46%
+...
+...
+...
+progress 98.68%
+progress 99.11%
+progress 99.46%
+progress 100.00%
+done {
+	path: '/var/folders/cd/gy7q816s141339zt56j83fg00000gn/T/MS-DOS.7.10.ISO',
+	url: 'http://localhost:8000/MS-DOS.7.10.ISO',
+	size: 9455616
+}
+```
