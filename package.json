@@ -1,7 +1,7 @@
 {
   "name": "download-file-with-progressbar",
   "version": "1.0.0",
-  "description": "a download package with progressbar",
+  "description": "a node package to download with progressbar",
   "main": "index.js",
   "scripts": {
     "test": "test.js"
@@ -16,7 +16,7 @@
     "progress"
   ],
   "author": "hxsf",
-  "license": "ISC",
+  "license": "SATA",
   "bugs": {
     "url": "https://github.com/hxsf/download-file-with-progressbar/issues"
   },
