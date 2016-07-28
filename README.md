@@ -1,11 +1,11 @@
-# download file with progress bar
+# Download file with progress bar
 
-## install
+## Install
 
 ```
 npm install --save download-file-with-progressbar
 ```
-## usage
+## Usage
 
 ```
 const dl = require('./index');
@@ -27,7 +27,7 @@ option = {
 dl('YOUR_URL', option);
 ```
 
-## demo
+## Demo
 
 ```
 progress 0.00%
@@ -49,3 +49,9 @@ done {
 	size: 9455616
 }
 ```
+
+## License
+
+this project uses `SATA` license (The Star And Thank Author License)，anyway，you should star this repo before use.
+
+More details: [LICENSE](LICENSE)文件。
