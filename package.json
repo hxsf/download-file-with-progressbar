@@ -1,0 +1,28 @@
+{
+  "name": "download-file-with-progressbar",
+  "version": "1.0.0",
+  "description": "a download package with progressbar",
+  "main": "index.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/hxsf/download-file-with-progressbar.git"
+  },
+  "keywords": [
+    "download",
+    "file",
+    "progress"
+  ],
+  "author": "hxsf",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hxsf/download-file-with-progressbar/issues"
+  },
+  "homepage": "https://github.com/hxsf/download-file-with-progressbar#readme",
+  "dependencies": {
+    "path": "^0.12.7",
+    "request": "^2.74.0"
+  }
+}
