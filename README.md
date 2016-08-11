@@ -1,5 +1,11 @@
 # Download file with progress bar
 
+## Require
+
+- node: ^6.0.0
+
+use some ES6 feature, you can use babel to make it support node below 6.0.0
+
 ## Install
 
 ```
@@ -8,7 +14,7 @@ npm install --save download-file-with-progressbar
 ## Usage
 
 ```
-const dl = require('./index');
+const dl = require('download-file-with-progressbar');
 
 option = {
 	filename: 'the filename to store, default = path.basename(YOUR_URL) || "unknowfilename"',
@@ -54,4 +60,4 @@ done {
 
 this project uses `SATA` license (The Star And Thank Author License)，anyway，you should star this repo before use.
 
-More details: [LICENSE](LICENSE)文件。
+More details: [LICENSE](./LICENSE)文件。

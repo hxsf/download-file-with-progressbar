@@ -12,5 +12,5 @@ option = {
 	},
 }
 
-dl('http://localhost:8000/MS-DOS.7.10.ISO', option);
+dl('http://localhost:8000/3.zip', option);
 // console.log(dl);
