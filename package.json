@@ -1,6 +1,6 @@
 {
   "name": "download-file-with-progressbar",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "a node package to download with progressbar",
   "main": "index.js",
   "scripts": {
