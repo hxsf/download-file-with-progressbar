@@ -1,6 +1,7 @@
 const dl = require('./index');
 
 option = {
+	filename: 'test.exe',
 	onDone: (info)=>{
 		console.log('done', info);
 	},
@@ -12,5 +13,5 @@ option = {
 	},
 }
 
-dl('http://localhost:8000/3.zip', option);
+dl('http://test.com/file.ext', option);
 // console.log(dl);
