@@ -13,5 +13,8 @@ option = {
 	},
 }
 
-dl('http://test.com/file.ext', option);
+var a = dl('http://test.com/file.ext', option);
+setTimeout(function () {
+	a.abort()
+}, 2000);
 // console.log(dl);
