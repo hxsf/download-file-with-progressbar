@@ -30,7 +30,10 @@ option = {
 	},
 }
 
-dl('YOUR_URL', option);
+var dd = dl('YOUR_URL', option);
+
+dd.abort() // to abort the download
+
 ```
 
 ## Demo
